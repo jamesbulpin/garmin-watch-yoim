@@ -1,0 +1,16 @@
+<resources>
+
+    <properties>
+        <property id="token_prop" type="string"></property>
+    </properties>
+
+    <strings>
+       <string id="token_title">Token</string>
+    </strings>
+
+    <settings>
+        <setting propertyKey="@Properties.token_prop" title="@Strings.token_title">
+            <settingConfig type="alphaNumeric" />
+        </setting>
+    </settings>
+</resources>
